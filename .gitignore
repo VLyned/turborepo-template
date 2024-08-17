@@ -4,6 +4,7 @@
 node_modules
 .pnp
 .pnp.js
+.pnpm-store/
 
 # testing
 coverage
@@ -13,6 +14,9 @@ coverage
 out/
 build
 .swc/
+
+# node
+dist/
 
 # misc
 .DS_Store
@@ -24,13 +28,34 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Prisma generated files
+packages/database/zod
 
 # turbo
 .turbo
 
 # ui
 dist/
+
+# nixos stuff
+.direnv
+
+Zone.Identifier
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# uploads
+packages/lib/uploads
+
+# Vite Timestamps
+*vite.config.*.timestamp-*
