@@ -8,6 +8,9 @@
     },
     "lint": {},
     "type-check": {},
+    "test": {
+      "outputs": []
+    },
     "dev": {
       "cache": false,
       "persistent": true
